@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modal</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery-3.6.3.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Modal HTML - Jquery</h1>
+	</header>
+
+	<div class="modal">
+		<span class="close">Fechar</span>
+
+		<div class="container">
+			<div class="img">
+				<img id="logo" src="image/pexels-polina-kovaleva-8880074.jpg" alt="">
+			</div>
+			<div class="titulo">
+				<h1>Promoção de Carnaval</h1>
+			</div>
+		</div>
+		
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab quae rerum, quaerat, tenetur eius ratione facilis facere sit, necessitatibus ea eveniet nihil? Est, quaerat ab. Deserunt ex nisi minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi recusandae aut consequuntur amet, reiciendis eligendi quas asperiores tempore rem ex mollitia, nihil quia temporibus provident quaerat possimus sed, culpa sint.
+
+		</p>
+		<div class="button-container">
+			<button id="assinar">Assinar</button>
+		</div>
+	</div>
+
+	<section class="secao1">
+	
+		<h2>Criando um modal com html e Jquery</h2>
+		<p>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae incidunt tenetur quo dicta tempore totam, nisi dolorum hic quam delectus culpa corrupti ipsum corporis obcaecati inventore minus odit iusto? Pariatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam qui beatae adipisci minus esse. Sit fuga quasi iste neque exercitationem id minus, accusamus ipsa tempora, blanditiis quibusdam totam officia adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, voluptatibus totam! Ipsum incidunt eligendi vitae ex cum et pariatur aperiam tempora modi, debitis beatae nemo laudantium sit maxime, praesentium voluptate!
+		</p>
+		
+	</section>
+
+	<section class="secao2">
+		<h2>CÓDIGO:</h2>
+		<div id="html" class="card">
+			HTML
+			<img src="image/html-code.png" alt="">
+		</div>
+		<div id="css" class="card">
+			CSS
+			<img src="image/css-code.png" alt="">
+			<img src="image/css-code2.png" alt="">
+		</div>
+		<div id="jquery" class="card">
+			JQUERY
+			<img src="image/jquery-code.png" alt="">
+		</div>
+	</section>
+
+	<footer>
+		<p>
+			Criado por <strong><a href="https://github.com/lfalvespe">Fernando Alves</a></strong>
+		</p>
+		<p>
+			<a href="mailto:lfalves@gmail.com">lfalves@gmail.com</a>
+		</p>
+	</footer>
+
+	<script>
+		$(".close").click(()=> $(".modal").hide())
+	</script>
+
+</body>
+</html>
